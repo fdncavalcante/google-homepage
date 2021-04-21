@@ -1,43 +1,165 @@
 <!DOCTYPE html>
 <style>
+    
+    .topnav {
+        overflow: hidden;
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+    }
+
+    .topnav li {
+        float: left;
+        padding: 0px 6px;         
+    }
+
+    .topnav-right {
+        float: right;            
+    }
+    
+    #right{
+        margin-right: 95px;
+    }
+
+    .signin {
+        float: right;
+        background-color: rgb(54, 133, 197);
+        color: floralwhite;
+        padding: 5px;
+        margin-right: 5px;
+        border:rgb(54, 133, 197);
+        margin-top: -33px;
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+    }
+
+    .material-icons {
+        float: right;
+        margin-right: 70px;
+        margin-top: -33px;
+        color: rgb(114, 113, 113)
+    }
+
     div {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-top: 10%;
     }
+
     .searchform {
         border-radius: 15px;
+        width: 35%;
+        margin-top: 2%;
+        line-height: 250%;
+        border-style: solid;
+        background: url(???) no-repeat left ;
     }
+
     ul {
         list-style-type: none; <!--remove the bullets-->
-        margin: 20;
+        margin: 0;
         padding: 0;
     }
+
     li {
         display: inline; <!--horizontal navigation bar-->
     }
+
     a:visited, a:link {
         text-decoration: none;
         color:rgb(63, 58, 58);
     }
+
     a:hover {
         text-decoration: underline;
         color: rgb(63, 58, 58);
-}
-   
+    }
+        
+    .botttomnav {
+        overflow: hidden;
+        position: fixed;      
+    }
+
+    .bottomnav li {
+        float: left;
+        padding: 0px 6px;              
+    }
+
+    .bottomnav-right {
+        float: right;
+    } 
+
+    .button {
+       margin-left: 10px;
+       margin-top: 20px;
+       margin-bottom: 12%;
+       border-style: hidden;
+       height: 40px;
+    }
+
+    .button1 {
+       margin-left: 550px;
+       margin-top: 20px;
+       margin-bottom: 12%;
+       border-style: hidden;
+       height: 40px;
+       font-family: Arial, sans-serif;
+       font-size: 13px;    
+    }
+
+    .footer {
+        background-color: rgb(243, 243, 243);
+        height: 40px;
+        border: 1px solid rgba(202, 202, 202, 0.26);
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;  
+    }
     </style>
+
 <html>
-    <ul>
+    <head>
+        <nav>
+    <ul class="topnav">
         <li><a href="">About</a></li>
         <li><a href="">Store</a></li>
+        <ul class="topnav-right">
+            <li><a  href="">Gmail</a></li>
+            <li><a id="right"href="">Images</a></li>
+        </ul>
     </ul>
-    
-    <head></head>
-    <body></body>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" class="topnav-right">
+    <button class="signin" type="button"><strong>Sign in</strong></button>       
+        </nav>    
+    </head>
+
+    <body>
+        <i class="material-icons">apps</i>
+    </body>
+
     <div>
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
-        <input type="text" class="searchform">
+        <input type="text" class="searchform" >
     </div>
     
-    </html>
+        <button class="button1" type="button">Google Search</button>
+        <button class="button" type="button">I'm Feeling Lucky</button>
+    
+    <footer class="footer">
+        <ul class="bottomnav">
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">How Search works</a></li>
+            <ul class="bottomnav-right">
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Settings</a></li>
+            </ul>
+        </ul>  
+    </footer>
+</html>
