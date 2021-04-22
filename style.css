@@ -1,0 +1,126 @@
+  
+    .topnav {
+        overflow: hidden;
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+    }
+
+    .topnav li {
+        float: left;
+        padding: 0px 6px;         
+    }
+
+    .topnav-right {
+        float: right;            
+    }
+    
+    #right{
+        margin-right: 95px;
+    }
+
+    .signin {
+        float: right;
+        background-color:#33f;;
+        color: floralwhite;
+        padding: 5px;
+        margin-right: 8px;
+        border:rgb(54, 133, 197);
+        border-radius: 4px;
+        margin-top: -33px;
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+    }
+
+    .material-icons {
+        float: right;
+        margin-right: 70px;
+        margin-top: -33px;
+        color: rgb(114, 113, 113)
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .searchform {
+        border-radius: 15px;
+        width: 35%;
+        margin-top: 2%;
+        line-height: 250%;
+        border-style: solid;
+        background: url(https://icons-for-free.com/iconfiles/png/512/explore+find+magnifier+search+icon-1320185008030646474.png) no-repeat left ;
+        background-size: 3%;
+        background-position-x: 10px;       
+    }
+
+    ul {
+        list-style-type: none; <!--remove the bullets-->
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline; <!--horizontal navigation bar-->
+    }
+
+    a:visited, a:link {
+        text-decoration: none;
+        color:rgb(63, 58, 58);
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: rgb(63, 58, 58);
+    }
+        
+    .botttomnav {
+        overflow: hidden;
+        position: fixed;      
+    }
+
+    .bottomnav li {
+        float: left;
+        padding: 0px 19px;              
+    }
+
+    .bottomnav-right {
+        float: right;
+    } 
+
+    .button1 , .button {
+        display:inline-block;
+        border-width: 0px ;
+        border-radius: 4px;
+        font-family: Arial, sans-serif;
+        font-size: 14px; 
+        height: 40px; 
+        background-color: #f2f2f2;
+        margin: 11px 4px;
+        padding: 0 16px;
+        color: #5F6368;     
+    }
+
+    button:hover {
+        border-color:rgb(190, 190, 190);
+        border-width: 1px;     
+    }
+    
+   p {
+    text-align: center;
+   }
+
+    .footer {
+        background-color: rgb(243, 243, 243);
+        height: 40px;
+        border: 1px solid rgba(202, 202, 202, 0.26);
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
